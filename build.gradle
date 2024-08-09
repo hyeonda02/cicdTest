@@ -36,3 +36,8 @@ dependencies {
 tasks.named('test') {
 	useJUnitPlatform()
 }
+
+//github action을 통한 빌드를 위함
+jar{
+	enabled = false
+}
